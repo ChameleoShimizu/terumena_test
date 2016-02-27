@@ -1,0 +1,204 @@
+{
+  "Sys":{
+    "Gloval":{
+      "Terumena":{
+        "Home":{
+          "character":[
+              {
+                "name":"カメレオン清水",
+                "race":"シェーレ",
+                "occupation":"魔道士",
+                "portrait":1,
+                "x":10,
+                "y":10,
+                "hpMax":128,
+                "hp":128,
+                "mpMax":48,
+                "mp":48,
+                "hungerMax":50,
+                "hunger":50,
+                "speed":100,
+                "muscle":24,
+                "endurance":16,
+                "weight":48,
+                "magical":64,
+                "luggageWeightMax":80,
+                "luggageWeight":0,
+                "place":{
+                  "gloval":,
+                  "local":,
+                },
+                "ability":[
+
+                ],
+                "flag":{
+                  "player":true
+                },
+                "item":[
+                  {
+                    "name":"ポーション",
+                    "x":10,
+                    "y":10,
+                    "weight":0.1,
+                    "func":{
+                      "x":["Examine",["飲むと回復する謎の液体。","体力を50回復する。"]],
+                      "q":["Drink",["StatusPlus",["hp",50]]]
+                    }
+                  }
+                ],
+                "equipment":{
+                  "head1":,
+                  "neck1":,
+                  "back1":,
+                  "body1":,
+                  "handedness":,
+                  "hand1":,
+                  "finger1":,
+                  "finger2":,
+                  "arm1":,
+                  "hip1":,
+                  "leg1":,
+                  "remote":,
+                  "ammunition":
+                }
+              }
+            ],
+          "map":[
+            [{
+              img:0,
+              item:[
+                {
+                  "img":0,
+                  "name":"ポーション",
+                  "weight":0.1,
+                  "func":{
+                    "x":["Examine",["飲むと回復する謎の液体。","体力を50回復する。"]],
+                    "q":["Drink",["Status","Plus",["hp",50]]
+                  }
+                }
+              ],
+            }
+          ],
+        }
+      }
+    },
+    "Flag":{
+      "Scene":{
+
+      },
+      "Title":{
+        "cursor":,
+      }
+    },
+    "Renderer":{
+      "Gloval":{
+        "px":32
+      },
+      "Local":{
+        "px":48
+      }
+    },
+    "Log":{
+
+    },
+    "Input":{
+      "Key":{
+        "state":[],
+        "Reset":{
+
+        }
+      },
+      "Mouse":{
+        "state":[],
+        "Reset":{
+
+        }
+      }
+    },
+    "Process":{
+      "Scene":{
+        "Title":{
+
+        },
+        "Resumption":{
+
+        },
+        "CharacterCreate":{
+
+        },
+        "Config":{
+
+        },
+        "Gloval":{
+
+        },
+        "Local":{
+
+        }
+      },
+      "Menu":{
+        "Item":{
+
+        },
+        "Equipment":{
+
+        },
+        "Status":{
+
+        }
+      },
+      "Item":{
+
+      },
+      "Equipment":{
+
+      },
+      "Status":{
+        "Plus":{
+
+        },
+        "Minus":{
+
+        }
+      },
+      "Move":{
+
+      },
+      "Battle":{
+
+      },
+      "Collision":{
+
+      },
+      "Log":{
+        "Input":{
+
+        },
+        "Clear":{
+
+        }
+      },
+      "Data":{
+        "Save":{
+
+        },
+        "Load":{
+
+        },
+        "Delete":{
+
+        }
+      }
+    },
+    "Output":{
+      "Renderer":{
+
+      },
+      "Log":{
+        "Print":{
+
+        }
+      }
+    }
+  }
+}
